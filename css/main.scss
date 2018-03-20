@@ -1,0 +1,86 @@
+@import 'normalize';
+
+$header-height : 3.5rem;
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 3.5rem;
+  width: 100%;
+  background: #D30700;
+  position: fixed;
+  top: 0;
+}
+
+header {
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: $header-height;
+    width: 33.3333%;
+  }
+}
+
+%button-ico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.button-menu {
+  @extend %button-ico;
+}
+
+.button-menu {
+  div {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 1rem;
+    height: 0.7rem;
+      hr {
+        width: 100%;
+        height: 2px;
+        background: #fff;
+        margin: 0;
+        border: 0;
+      }
+  }
+}
+
+.container-button-menu {
+  justify-content: flex-start;
+  margin-left: 1rem;
+}
+
+.container-button-search {
+  justify-content: flex-end;
+  margin-right: 1rem,
+}
+
+.header-logo {
+  height: 15px;
+  width: 114px;
+}
+
+.button-search {
+  @extend %button-ico;
+}
+
+.search-ico {
+  height: 22px;
+  width: 22px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #1C1C1C;
+  margin-top: $header-height;
+}
