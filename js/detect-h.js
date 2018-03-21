@@ -13,4 +13,4 @@ $( 'main' ).css( 'height' , mainHeight );
 
 sliderHeight = mainHeight - bulletsHeight;
 
-$( '.slider' ).css( 'height' , sliderHeight );
+$( '#slider-container' ).css( 'height' , sliderHeight );

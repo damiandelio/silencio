@@ -28,8 +28,9 @@
     </header>
 
     <main>
-      <div class="slider" id="slider-01">
-
+      <div id="slider-container">
+        <div class="slider" id="slider-01">
+        </div>
       </div>
       <ul id="container-bullets">
         <li></li>

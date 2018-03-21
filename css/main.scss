@@ -79,10 +79,17 @@ header {
 
 main {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   width: 100%;
   background: #1C1C1C;
   margin-top: $header-height;
+}
+
+#slider-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 900%;
+  position: absolute;
 }
 
 .slider {
@@ -90,8 +97,8 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  position: absolute;
+  height: 100%;
+  width: 11.1111%;
   background: red;
 }
 
