@@ -33,18 +33,24 @@
         </div>
         <div class="slider" id="slider-02" style="background: green;">
         </div>
-        <div class="slider" id="slider-03" style="background: black;">
+        <div class="slider" id="slider-03" style="background: #ffc4c4;">
         </div>
         <div class="slider" id="slider-04" style="background: blue;">
         </div>
-        <div class="slider" id="slider-05" style="background: white;">
+        <div class="slider" id="slider-05" style="background: #788307;">
         </div>
         <div class="slider" id="slider-06" style="background: orange;">
         </div>
         <div class="slider" id="slider-07" style="background: yellow;">
         </div>
+        <div class="slider" id="slider-08" style="background: #1a7ecd;">
+        </div>
+        <div class="slider" id="slider-09" style="background: #c71acd;">
+        </div>
       </div>
       <ul id="container-bullets">
+        <li></li>
+        <li></li>
         <li></li>
         <li></li>
         <li></li>
