@@ -29,7 +29,19 @@
 
     <main>
       <div id="slider-container">
-        <div class="slider" id="slider-01">
+        <div class="slider" id="slider-01" style="background: red;">
+        </div>
+        <div class="slider" id="slider-02" style="background: green;">
+        </div>
+        <div class="slider" id="slider-03" style="background: black;">
+        </div>
+        <div class="slider" id="slider-04" style="background: blue;">
+        </div>
+        <div class="slider" id="slider-05" style="background: white;">
+        </div>
+        <div class="slider" id="slider-06" style="background: orange;">
+        </div>
+        <div class="slider" id="slider-07" style="background: yellow;">
         </div>
       </div>
       <ul id="container-bullets">

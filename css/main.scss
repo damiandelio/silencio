@@ -2,6 +2,10 @@
 
 $header-height : 3.5rem;
 
+body {
+  overflow: hidden;
+}
+
 header {
   display: flex;
   justify-content: flex-start;
@@ -99,7 +103,6 @@ main {
   justify-content: center;
   height: 100%;
   width: 11.1111%;
-  background: red;
 }
 
 #container-bullets {
@@ -122,7 +125,114 @@ main {
 
 // Animaciones
 //------------------------------
+$timeAnimation: 0.3s;
 
-.displace-right {
-  transform: translateX(10rem);
+.animateR01 {
+  transform: translateX(-11.111%);
+  animation: animateR01 $timeAnimation;
+}
+
+@keyframes animateR01{
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-11.111%);
+  }
+}
+
+//--------
+
+.animateR02 {
+  transform: translateX(-22.222%);
+  animation: animateR02 $timeAnimation;
+}
+
+@keyframes animateR02{
+  0% {
+    transform: translateX(-11.111%);
+  }
+  100% {
+    transform: translateX(-22.222%);
+  }
+}
+
+//--------
+
+.animateR03 {
+  transform: translateX(-33.333%);
+  animation: animateR03 $timeAnimation;
+}
+
+@keyframes animateR03{
+  0% {
+    transform: translateX(-22.222%);
+  }
+  100% {
+    transform: translateX(-33.333%);
+  }
+}
+
+//--------
+
+.animateR04 {
+  transform: translateX(-44.444%);
+  animation: animateR04 $timeAnimation;
+}
+
+@keyframes animateR04{
+  0% {
+    transform: translateX(-33.333%);
+  }
+  100% {
+    transform: translateX(-44.444%);
+  }
+}
+
+//--------
+
+.animateR05 {
+  transform: translateX(-55.555%);
+  animation: animateR05 $timeAnimation;
+}
+
+@keyframes animateR05{
+  0% {
+    transform: translateX(-44.444%);
+  }
+  100% {
+    transform: translateX(-55.555%);
+  }
+}
+
+//--------
+
+.animateR06 {
+  transform: translateX(-66.666%);
+  animation: animateR06 $timeAnimation;
+}
+
+@keyframes animateR06{
+  0% {
+    transform: translateX(-55.555%);
+  }
+  100% {
+    transform: translateX(-66.666%);
+  }
+}
+
+//--------
+
+.animateR07 {
+  transform: translateX(0);
+  animation: animateR07 0.4s;
+}
+
+@keyframes animateR07{
+  0% {
+    transform: translateX(-66.000%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
