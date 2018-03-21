@@ -28,10 +28,24 @@
     </header>
 
     <main>
+      <div class="slider" id="slider-01">
 
+      </div>
+      <ul id="container-bullets">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     </main>
 
   </body>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery.touchSwipe.min.js"></script>
   <script src="js/detect-h.js"></script>
+  <script src="js/swipe.js"></script>
+
 </html>

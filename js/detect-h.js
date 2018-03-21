@@ -2,7 +2,15 @@
 
 var windowHeight = $( window ).height();
 var headerHeight = $( 'header' ).height();
+var bulletsHeight = $( '#container-bullets' ).height();
+var mainHeight;
+var sliderHeight;
 
-windowHeight = windowHeight - headerHeight;
+mainHeight = windowHeight - headerHeight;
 
-$( 'main' ).css( 'height' , windowHeight );
+$( 'main' ).css( 'height' , mainHeight );
+
+
+sliderHeight = mainHeight - bulletsHeight;
+
+$( '.slider' ).css( 'height' , sliderHeight );
