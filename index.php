@@ -29,7 +29,8 @@
 
     <main>
       <div id="slider-container">
-        <div class="slider" id="slider-01" style="background: red;">
+        <div class="slider" id="slider-01">
+
         </div>
         <div class="slider" id="slider-02" style="background: green;">
         </div>
@@ -49,15 +50,15 @@
         </div>
       </div>
       <ul id="container-bullets">
-        <li id="bullet-01"></li>
-        <li id="bullet-02"></li>
-        <li id="bullet-03"></li>
-        <li id="bullet-04"></li>
-        <li id="bullet-05"></li>
-        <li id="bullet-06"></li>
-        <li id="bullet-07"></li>
-        <li id="bullet-08"></li>
-        <li id="bullet-09"></li>
+        <li class="bullets active" id="bullet-01"></li>
+        <li class="bullets" id="bullet-02"></li>
+        <li class="bullets" id="bullet-03"></li>
+        <li class="bullets" id="bullet-04"></li>
+        <li class="bullets" id="bullet-05"></li>
+        <li class="bullets" id="bullet-06"></li>
+        <li class="bullets" id="bullet-07"></li>
+        <li class="bullets" id="bullet-08"></li>
+        <li class="bullets" id="bullet-09"></li>
       </ul>
     </main>
 
