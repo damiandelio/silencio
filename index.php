@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Acerca de Silencio - Silencio</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
     <link rel="stylesheet" href="css/main.min.css">
   </head>
   <body>
@@ -30,23 +31,47 @@
     <main>
       <div id="slider-container">
         <div class="slider" id="slider-01">
-
         </div>
-        <div class="slider" id="slider-02" style="background: green;">
+        <div class="slider" id="slider-02">
+          <h1><a href="#">Joaquín Vismera</a></h1>
+          <img src="img/perfil-autores/joaquin-vismera.jpg" alt="joaquin-vismera escritor en silencio.com" onclick="location.href='#'">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate cursus nisi, sit amet imperdiet diam accumsan ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque <a href="#">mas...</a></p>
+          <a class="twitter" href="#"><img src="img/twitter-logo.svg">@joaquinvismera</a>
+          <a class="mail" href="mailto:joaquinvismera@mail.com">joaquinvismera@mail.com</a>
         </div>
-        <div class="slider" id="slider-03" style="background: #ffc4c4;">
+        <div class="slider" id="slider-03">
+          <h1><a href="#">Joaquín Vismera</a></h1>
+          <img src="img/perfil-autores/joaquin-vismera.jpg" alt="joaquin-vismera escritor en silencio.com" onclick="location.href='#'">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate cursus nisi, sit amet imperdiet diam accumsan ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque <a href="#">mas...</a></p>
+          <a class="twitter" href="#"><img src="img/twitter-logo.svg">@joaquinvismera</a>
+          <a class="mail" href="mailto:joaquinvismera@mail.com">joaquinvismera@mail.com</a>
         </div>
-        <div class="slider" id="slider-04" style="background: blue;">
+        <div class="slider" id="slider-04">
+          <h1><a href="#">Joaquín Vismera</a></h1>
+          <img src="img/perfil-autores/joaquin-vismera.jpg" alt="joaquin-vismera escritor en silencio.com" onclick="location.href='#'">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate cursus nisi, sit amet imperdiet diam accumsan ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque <a href="#">mas...</a></p>
+          <a class="twitter" href="#"><img src="img/twitter-logo.svg">@joaquinvismera</a>
+          <a class="mail" href="mailto:joaquinvismera@mail.com">joaquinvismera@mail.com</a>
         </div>
-        <div class="slider" id="slider-05" style="background: #788307;">
+        <div class="slider" id="slider-05">
+          <h1><a href="#">Joaquín Vismera</a></h1>
+          <img src="img/perfil-autores/joaquin-vismera.jpg" alt="joaquin-vismera escritor en silencio.com" onclick="location.href='#'">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate cursus nisi, sit amet imperdiet diam accumsan ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque <a href="#">mas...</a></p>
+          <a class="twitter" href="#"><img src="img/twitter-logo.svg">@joaquinvismera</a>
+          <a class="mail" href="mailto:joaquinvismera@mail.com">joaquinvismera@mail.com</a>
         </div>
-        <div class="slider" id="slider-06" style="background: orange;">
+        <div class="slider" id="slider-06">
+          <h1><a href="#">Joaquín Vismera</a></h1>
+          <img src="img/perfil-autores/joaquin-vismera.jpg" alt="joaquin-vismera escritor en silencio.com" onclick="location.href='#'">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate cursus nisi, sit amet imperdiet diam accumsan ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque <a href="#">mas...</a></p>
+          <a class="twitter" href="#"><img src="img/twitter-logo.svg">@joaquinvismera</a>
+          <a class="mail" href="mailto:joaquinvismera@mail.com">joaquinvismera@mail.com</a>
         </div>
-        <div class="slider" id="slider-07" style="background: yellow;">
+        <div class="slider" id="slider-07">
         </div>
-        <div class="slider" id="slider-08" style="background: #1a7ecd;">
+        <div class="slider" id="slider-08">
         </div>
-        <div class="slider" id="slider-09" style="background: #c71acd;">
+        <div class="slider" id="slider-09">
         </div>
       </div>
       <ul id="container-bullets">

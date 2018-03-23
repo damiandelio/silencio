@@ -105,6 +105,58 @@ main {
   justify-content: center;
   height: 100%;
   width: 11.1111%;
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 18pt;
+    font-weight: 500;
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+  img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+    margin: 1.5rem 0 1.5rem 0;
+    cursor: pointer;
+  }
+  p {
+    font-family: 'Roboto', sans-serif;
+    width: 20rem;
+    max-width: 90%;
+    color: #fff;
+    font-size: 12pt;
+    text-align: center;
+    line-height: 1.4rem;
+    a {
+      text-decoration: none;
+      color: #3483C8;
+    }
+  }
+}
+
+.twitter {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12pt;
+  color: #fff;
+  text-decoration: none;
+  margin: 2rem 0 1rem 0;
+  img {
+    height: 1.2rem;
+    width: 1.2rem;
+    margin: 3px 5px 0 0;
+  }
+}
+
+.mail {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12pt;
+  color: #3483C8;
+  text-decoration: none;
 }
 
 #container-bullets {
