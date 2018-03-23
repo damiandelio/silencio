@@ -1,11 +1,13 @@
 @import 'normalize';
 
+@import 'fonts';
+
 @import 'animaciones';
 
 $header-height : 3.5rem;
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 header {
@@ -183,4 +185,75 @@ main {
 
 .active {
   background: #3483C8;
+}
+
+// Media querys -------------------------
+
+@media screen and (max-height: 580px) {
+  .slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 11.1111%;
+    h1 {
+      font-family: 'Roboto', sans-serif;
+      color: #fff;
+      font-size: 16pt;
+      font-weight: 500;
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+    img {
+      height: 8rem;
+      width: 8rem;
+      border-radius: 100%;
+      margin: 1rem 0 1rem 0;
+      cursor: pointer;
+    }
+    p {
+      font-family: 'Roboto', sans-serif;
+      width: 20rem;
+      max-width: 90%;
+      color: #fff;
+      font-size: 11pt;
+      text-align: center;
+      line-height: 1.2rem;
+      a {
+        text-decoration: none;
+        color: #3483C8;
+      }
+    }
+  }
+
+  .twitter {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    color: #fff;
+    text-decoration: none;
+    margin: 1rem 0 0.7rem 0;
+    img {
+      height: 1.2rem;
+      width: 1.2rem;
+      margin: 3px 5px 0 0;
+    }
+  }
+
+  #container-bullets {
+    height: 2rem;
+  }
+
+  .mail {
+    font-size: 11pt;
+  }
+
+  .bullets {
+    width: 0.6rem;
+    height: 0.6rem;
+  }
 }

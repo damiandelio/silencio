@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <title>Acerca de Silencio - Silencio</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
     <link rel="stylesheet" href="css/main.min.css">
   </head>
   <body>
@@ -33,39 +32,39 @@
         <div class="slider" id="slider-01">
         </div>
         <div class="slider" id="slider-02">
-          <h1><a href="#">Joaquín Vismera</a></h1>
-          <img src="img/perfil-autores/joaquin-vismera.jpg" alt="joaquin-vismera escritor en silencio.com" onclick="location.href='#'">
+          <h1><a href="#">Roque Casciero</a></h1>
+          <img src="img/perfil-autores/roque-casciero.jpg" alt="Roque Casciero escritor en silencio.com" onclick="location.href='#'">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate cursus nisi, sit amet imperdiet diam accumsan ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque <a href="#">mas...</a></p>
-          <a class="twitter" href="#"><img src="img/twitter-logo.svg">@joaquinvismera</a>
-          <a class="mail" href="mailto:joaquinvismera@mail.com">joaquinvismera@mail.com</a>
+          <a class="twitter" href="#"><img src="img/twitter-logo.svg">@roquecasciero</a>
+          <a class="mail" href="mailto:roquecasciero@mail.com">roquecasciero@mail.com</a>
         </div>
         <div class="slider" id="slider-03">
-          <h1><a href="#">Joaquín Vismera</a></h1>
-          <img src="img/perfil-autores/joaquin-vismera.jpg" alt="joaquin-vismera escritor en silencio.com" onclick="location.href='#'">
+          <h1><a href="#">Sebastián Chaves</a></h1>
+          <img src="img/perfil-autores/sebastian-chaves.jpg" alt="Sebastián Chaves escritor en silencio.com" onclick="location.href='#'">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate cursus nisi, sit amet imperdiet diam accumsan ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque <a href="#">mas...</a></p>
-          <a class="twitter" href="#"><img src="img/twitter-logo.svg">@joaquinvismera</a>
-          <a class="mail" href="mailto:joaquinvismera@mail.com">joaquinvismera@mail.com</a>
+          <a class="twitter" href="#"><img src="img/twitter-logo.svg">@sebastianchaves</a>
+          <a class="mail" href="mailto:sebastianchaves@mail.com">sebastianchaves@mail.com</a>
         </div>
         <div class="slider" id="slider-04">
-          <h1><a href="#">Joaquín Vismera</a></h1>
-          <img src="img/perfil-autores/joaquin-vismera.jpg" alt="joaquin-vismera escritor en silencio.com" onclick="location.href='#'">
+          <h1><a href="#">Ignacio Guebara</a></h1>
+          <img src="img/perfil-autores/ignacio-guebara.jpg" alt="Ignacio Guebara escritor en silencio.com" onclick="location.href='#'">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate cursus nisi, sit amet imperdiet diam accumsan ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque <a href="#">mas...</a></p>
-          <a class="twitter" href="#"><img src="img/twitter-logo.svg">@joaquinvismera</a>
-          <a class="mail" href="mailto:joaquinvismera@mail.com">joaquinvismera@mail.com</a>
+          <a class="twitter" href="#"><img src="img/twitter-logo.svg">@ignacioguebara</a>
+          <a class="mail" href="mailto:ignacioguebara@mail.com">ignacioguebara@mail.com</a>
         </div>
         <div class="slider" id="slider-05">
           <h1><a href="#">Joaquín Vismera</a></h1>
-          <img src="img/perfil-autores/joaquin-vismera.jpg" alt="joaquin-vismera escritor en silencio.com" onclick="location.href='#'">
+          <img src="img/perfil-autores/joaquin-vismera.jpg" alt="Joaquin Vismera escritor en silencio.com" onclick="location.href='#'">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate cursus nisi, sit amet imperdiet diam accumsan ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque <a href="#">mas...</a></p>
           <a class="twitter" href="#"><img src="img/twitter-logo.svg">@joaquinvismera</a>
           <a class="mail" href="mailto:joaquinvismera@mail.com">joaquinvismera@mail.com</a>
         </div>
         <div class="slider" id="slider-06">
-          <h1><a href="#">Joaquín Vismera</a></h1>
-          <img src="img/perfil-autores/joaquin-vismera.jpg" alt="joaquin-vismera escritor en silencio.com" onclick="location.href='#'">
+          <h1><a href="#">Cecilia Salas (Fotos)</a></h1>
+          <img src="img/perfil-autores/cecilia-salas.jpg" alt="Cecilia Salas fotografa de silencio.com" onclick="location.href='#'">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate cursus nisi, sit amet imperdiet diam accumsan ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque <a href="#">mas...</a></p>
-          <a class="twitter" href="#"><img src="img/twitter-logo.svg">@joaquinvismera</a>
-          <a class="mail" href="mailto:joaquinvismera@mail.com">joaquinvismera@mail.com</a>
+          <a class="twitter" href="#"><img src="img/twitter-logo.svg">@ceciliasalas</a>
+          <a class="mail" href="mailto:ceciliasalas@mail.com">ceciliasalas@mail.com</a>
         </div>
         <div class="slider" id="slider-07">
         </div>
