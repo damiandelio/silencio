@@ -49,15 +49,15 @@
         </div>
       </div>
       <ul id="container-bullets">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li id="bullet-01"></li>
+        <li id="bullet-02"></li>
+        <li id="bullet-03"></li>
+        <li id="bullet-04"></li>
+        <li id="bullet-05"></li>
+        <li id="bullet-06"></li>
+        <li id="bullet-07"></li>
+        <li id="bullet-08"></li>
+        <li id="bullet-09"></li>
       </ul>
     </main>
 
