@@ -64,15 +64,18 @@ header {
 
 .container-button-menu {
   justify-content: flex-start;
+  cursor: pointer;
 }
 
 .container-button-search {
   justify-content: flex-end;
+  cursor: pointer;
 }
 
 .header-logo {
   height: 15px;
   width: 114px;
+  cursor: pointer;
 }
 
 .button-search {
