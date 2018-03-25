@@ -9,7 +9,7 @@
   <body>
     <header>
       <div class="container-button-menu">
-        <div class="button-menu">
+        <div id="button-menu">
           <div>
             <hr>
             <hr>
@@ -17,8 +17,8 @@
           </div>
         </div>
       </div>
-      <div>
-        <img class="header-logo" src="img/silencio.png" onclick="location.href='#'" alt="logo sitio web Silencio">
+      <div onclick="location.href='#'">
+        <img class="header-logo" src="img/silencio.png" alt="logo sitio web Silencio">
       </div>
       <div class="container-button-search">
         <div class="button-search">
@@ -26,6 +26,10 @@
         </div>
       </div>
     </header>
+
+    <div id="shadow"></div>
+    <menu>
+    </menu>
 
     <main>
       <div id="slider-container">
@@ -146,6 +150,7 @@
     <script src="js/jquery.touchSwipe.min.js"></script>
     <script src="js/detect-h.js"></script>
     <script src="js/swipe.js"></script>
+    <script src="js/menu.js"></script>
 
   </body>
 </html>

@@ -4,6 +4,8 @@
 
 @import 'animaciones';
 
+@import 'menu';
+
 $header-height : 3.5rem;
 
 body {
@@ -39,12 +41,12 @@ header {
   width: 1.5rem;
 }
 
-.button-menu {
+#button-menu {
   @extend %button-ico;
   margin-left: 1rem;
 }
 
-.button-menu {
+#button-menu {
   div {
     display: flex;
     flex-flow: column;
@@ -64,18 +66,15 @@ header {
 
 .container-button-menu {
   justify-content: flex-start;
-  cursor: pointer;
 }
 
 .container-button-search {
   justify-content: flex-end;
-  cursor: pointer;
 }
 
 .header-logo {
   height: 15px;
   width: 114px;
-  cursor: pointer;
 }
 
 .button-search {
@@ -133,7 +132,6 @@ main {
     width: 10rem;
     border-radius: 100%;
     margin: 1.5rem 0 1.5rem 0;
-    cursor: pointer;
   }
   p {
     font-family: 'Roboto', sans-serif;
@@ -244,7 +242,6 @@ main {
       height: 8rem;
       width: 8rem;
       margin: 1rem 0 1rem 0;
-      cursor: pointer;
     }
     p {
       font-family: 'Roboto', sans-serif;
