@@ -2,7 +2,7 @@ $(document).ready(main);
 
 //Detecta la altura de la pantalla y la del hader para restarlas y mostrar full screen.
 
-var windowHeight = $( document ).height();
+var windowHeight = $( window ).height();
 //var windowHeight = screen.availHeight;
 var headerHeight = $( 'header' ).height();
 var bulletsHeight = $( '#container-bullets' ).height();
@@ -18,7 +18,7 @@ function main() {
 
 
   $( window ).resize(function() {
-    var windowHeight = $( document ).height();
+    var windowHeight = $( window ).height();
     //var windowHeight = screen.availHeight;
     var headerHeight = $( 'header' ).height();
     var bulletsHeight = $( '#container-bullets' ).height();

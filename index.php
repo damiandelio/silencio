@@ -30,47 +30,103 @@
     <main>
       <div id="slider-container">
         <div class="slider" id="slider-01">
+          <h1><a href="#">¿Quienes somos?</a></h1>
+          <p>Somos un medio digital especializado en cultura rock, online desde octubre de 2015. Nuestra curaduría editorial amalgama tendencias y novedades musicales en Argentina y el mundo.<br><br>
+          Priorizamos la calidad del contenido editorial publicado en nuestras plataformas y buscamos innovar en nuestros lenguajes, formatos y desarrollos.</p>
         </div>
         <div class="slider" id="slider-02">
-          <h1><a href="#">Roque Casciero</a></h1>
+          <h2><a href="#">Roque Casciero</a></h2>
           <img src="img/perfil-autores/roque-casciero.jpg" alt="Roque Casciero escritor de Silencio" onclick="location.href='#'">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate cursus nisi, sit amet imperdiet diam accumsan ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque <a href="#">mas...</a></p>
           <a class="twitter" href="#"><img src="img/twitter-logo.svg" alt="Twitter roquecasciero">@roquecasciero</a>
           <a class="mail" href="mailto:roquecasciero@mail.com">roquecasciero@mail.com</a>
         </div>
         <div class="slider" id="slider-03">
-          <h1><a href="#">Sebastián Chaves</a></h1>
+          <h2><a href="#">Sebastián Chaves</a></h2>
           <img src="img/perfil-autores/sebastian-chaves.jpg" alt="Sebastián Chaves escritor de Silencio" onclick="location.href='#'">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate cursus nisi, sit amet imperdiet diam accumsan ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque <a href="#">mas...</a></p>
           <a class="twitter" href="#"><img src="img/twitter-logo.svg" alt="Twitter sebastianchaves">@sebastianchaves</a>
           <a class="mail" href="mailto:sebastianchaves@mail.com">sebastianchaves@mail.com</a>
         </div>
         <div class="slider" id="slider-04">
-          <h1><a href="#">Ignacio Guebara</a></h1>
+          <h2><a href="#">Ignacio Guebara</a></h2>
           <img src="img/perfil-autores/ignacio-guebara.jpg" alt="Ignacio Guebara escritor de Silencio" onclick="location.href='#'">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate cursus nisi, sit amet imperdiet diam accumsan ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque <a href="#">mas...</a></p>
           <a class="twitter" href="#"><img src="img/twitter-logo.svg" alt="Twitter ignacioguebara">@ignacioguebara</a>
           <a class="mail" href="mailto:ignacioguebara@mail.com">ignacioguebara@mail.com</a>
         </div>
         <div class="slider" id="slider-05">
-          <h1><a href="#">Joaquín Vismera</a></h1>
+          <h2><a href="#">Joaquín Vismera</a></h2>
           <img src="img/perfil-autores/joaquin-vismera.jpg" alt="Joaquin Vismera escritor de Silencio" onclick="location.href='#'">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate cursus nisi, sit amet imperdiet diam accumsan ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque <a href="#">mas...</a></p>
           <a class="twitter" href="#"><img src="img/twitter-logo.svg" alt="Twitter joaquinvismera">@joaquinvismera</a>
           <a class="mail" href="mailto:joaquinvismera@mail.com">joaquinvismera@mail.com</a>
         </div>
         <div class="slider" id="slider-06">
-          <h1><a href="#">Cecilia Salas (Fotografa)</a></h1>
+          <h2 style="margin-left: 3rem;"><a href="#">Cecilia Salas <span style="font-size: 12pt; color: #ffffff80;">(Fotos)</span></a></h2>
           <img src="img/perfil-autores/cecilia-salas.jpg" alt="Cecilia Salas fotografa de Silencio" onclick="location.href='#'">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate cursus nisi, sit amet imperdiet diam accumsan ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque <a href="#">mas...</a></p>
           <a class="twitter" href="#"><img src="img/twitter-logo.svg" alt="Twitter ceciliasalas">@ceciliasalas</a>
           <a class="mail" href="mailto:ceciliasalas@mail.com">ceciliasalas@mail.com</a>
         </div>
         <div class="slider" id="slider-07">
+          <h2 class="titulo-colaboradores"><a href="#">Colaboradores</a></h2>
+          <div class="cont-colaboradores">
+            <div>
+              <img src="img/perfil-autores/img-perfil.png" alt="Colaborador 01 de Silencio">
+              <h3><a href="#">Colaborador 01</a></h3>
+            </div>
+            <div>
+              <img src="img/perfil-autores/img-perfil.png" alt="Colaborador 02 de Silencio">
+              <h3><a href="#">Colaborador 02</a></h3>
+            </div>
+            <div>
+              <img src="img/perfil-autores/img-perfil.png" alt="Colaborador 03 de Silencio">
+              <h3><a href="#">Colaborador 03</a></h3>
+            </div>
+            <div>
+              <img src="img/perfil-autores/img-perfil.png" alt="Colaborador 04 de Silencio">
+              <h3><a href="#">Colaborador 04</a></h3>
+            </div>
+          </div>
         </div>
         <div class="slider" id="slider-08">
+          <h2 class="titulo-colaboradores"><a href="#">Colaboradores</a></h2>
+          <div class="cont-colaboradores">
+            <div>
+              <img src="img/perfil-autores/img-perfil.png" alt="Colaborador 05 de Silencio">
+              <h3><a href="#">Colaborador 05</a></h3>
+            </div>
+            <div>
+              <img src="img/perfil-autores/img-perfil.png" alt="Colaborador 06 de Silencio">
+              <h3><a href="#">Colaborador 06</a></h3>
+            </div>
+            <div>
+              <img src="img/perfil-autores/img-perfil.png" alt="Colaborador 07 de Silencio">
+              <h3><a href="#">Colaborador 07</a></h3>
+            </div>
+            <div>
+              <img src="img/perfil-autores/img-perfil.png" alt="Colaborador 08 de Silencio">
+              <h3><a href="#">Colaborador 08</a></h3>
+            </div>
+          </div>
         </div>
         <div class="slider" id="slider-09">
+          <h2 class="titulo-colaboradores"><a href="#">Colaboradores</a></h2>
+          <div class="cont-colaboradores">
+            <div>
+              <img src="img/perfil-autores/img-perfil.png" alt="Colaborador 09 de Silencio">
+              <h3><a href="#">Colaborador 09</a></h3>
+            </div>
+            <div>
+              <img src="img/perfil-autores/img-perfil.png" alt="Colaborador 10 de Silencio">
+              <h3><a href="#">Colaborador 10</a></h3>
+            </div>
+            <div style="width: 100%">
+              <img src="img/perfil-autores/img-perfil.png" alt="Colaborador 11 de Silencio">
+              <h3><a href="#">Colaborador 11</a></h3>
+            </div>
+          </div>
         </div>
       </div>
       <ul id="container-bullets">

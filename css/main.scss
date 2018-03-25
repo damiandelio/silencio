@@ -110,7 +110,7 @@ main {
   justify-content: center;
   height: 100%;
   width: 11.1111%;
-  h1 {
+  h1, h2 {
     font-family: 'Roboto', sans-serif;
     color: #fff;
     font-size: 18pt;
@@ -118,6 +118,14 @@ main {
     a {
       text-decoration: none;
       color: #fff;
+    }
+  }
+  h3 {
+    a {
+      font-family: 'Roboto', sans-serif;
+      color: #fff;
+      font-size: 11pt;
+      text-decoration: none;
     }
   }
   img {
@@ -164,6 +172,37 @@ main {
   text-decoration: none;
 }
 
+#slider-01 {
+  h1 {
+    margin-bottom: 2.2rem;
+  }
+}
+
+.titulo-colaboradores {
+    margin-bottom: 1rem;
+}
+
+.cont-colaboradores {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 26rem;
+  min-width: 20rem;
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    height: 7rem;
+    width: 7rem;
+    margin: 2rem 1.5rem 1rem 1.5rem;
+  }
+}
+
 #container-bullets {
   display: flex;
   justify-content: center;
@@ -194,17 +233,8 @@ main {
 
 @media screen and (max-height: 580px) {
   .slider {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 11.1111%;
     h1 {
-      font-family: 'Roboto', sans-serif;
-      color: #fff;
       font-size: 16pt;
-      font-weight: 500;
       a {
         text-decoration: none;
         color: #fff;
@@ -213,7 +243,6 @@ main {
     img {
       height: 8rem;
       width: 8rem;
-      border-radius: 100%;
       margin: 1rem 0 1rem 0;
       cursor: pointer;
     }
@@ -233,17 +262,23 @@ main {
   }
 
   .twitter {
-    display: flex;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
     font-size: 11pt;
-    color: #fff;
     text-decoration: none;
     margin: 1rem 0 0.7rem 0;
     img {
       height: 1.2rem;
       width: 1.2rem;
       margin: 3px 5px 0 0;
+    }
+  }
+
+  .cont-colaboradores {
+    max-width: 18rem;
+    min-width: 17rem;
+    img {
+      height: 5rem;
+      width: 5rem;
+      margin: 1.5rem 1rem 1rem 1rem;
     }
   }
 

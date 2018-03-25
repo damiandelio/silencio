@@ -163,8 +163,8 @@ $("#slider-08").swipe({
     $('#slider-container').addClass('animateL08');
     $('#slider-container').removeClass('animateR07 animateL09');
     $('#bullet-07').addClass('active');
-    $( '#bullet-01 , #bullet-02 , #bullet-03 , #bullet-04 , #bullet-05 , #bullet-06' ).css( 'display' , 'block' );
-    $( '#bullet-08 , #bullet-09' ).css( 'display' , 'none' );
+    /*$( '#bullet-01 , #bullet-02 , #bullet-03 , #bullet-04 , #bullet-05 , #bullet-06' ).css( 'display' , 'block' );
+    $( '#bullet-08 , #bullet-09' ).css( 'display' , 'none' );*/
   }
 });
 
